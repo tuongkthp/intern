@@ -1,4 +1,4 @@
-* top
+# top
 	- Cú pháp: top [options]
 	- Chức năng: một tiện ích động, thời gian thực cung cấp tổng quan chi tiết về hiệu suất hệ thống
 	- [options]:
@@ -12,7 +12,7 @@
 		-1	Nó được sử dụng để hiển thị mức sử dụng CPU trên mỗi lõi
 		-h	Tùy chọn này được sử dụng để hiển thị thông tin trợ giúp
 
-* ps
+# ps
 	- Cú pháp: ps [options]
 	- Chức năng: Dùng để quan sát các process đang chạy
 	- [Option]:
@@ -21,7 +21,7 @@
 			-aux = -ef : hiển thị đầy đủ thông tin về tất cả các process
 			-u : hiển thị các process liên quan đến user hiện hành
 			-p PID : hiển thị thông tin process cụ thể
-* lsof
+# lsof
 	- Cú pháp: lsof [option]
 	- Chức năng: Hiển thị danh sách các file đã được mở bởi process nào
 	- [options]:
@@ -33,7 +33,7 @@
 		-D	Liệt kê các tệp được mở bởi một thư mục cụ thể.
 		-R	Liệt kê ID quy trình mẹ cùng với các quy trình con.
 
-* htop
+# htop
 	- Cú pháp: htop [option]
 	- Chức năng: cho phép giám sát trực tiếp các tiến trình quan trọng của hệ thống hoặc máy chủ theo thời gian thực
 	- [options]:
@@ -44,6 +44,6 @@
 		-t	displays the process hierarchy in tree view in the commands column
 		--no-color	Runs htop in monochrome mode, disabling color
 
-* kill
+# kill
 	- Cú pháp: kill [option]
 	- Chức năng: Gửi tín hiệu để tắt process đang chạy
