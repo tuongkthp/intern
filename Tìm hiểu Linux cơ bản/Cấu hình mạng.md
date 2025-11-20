@@ -32,6 +32,6 @@
 - Muốn xóa IP address sử dụng câu lệnh: "ip addr del <ip_address>/<prefix_length> dev <interface_name>"
 - Muốn thêm IP address sử dụng 1 trong các câu lệnh: 
     * "sudo ip addr add <ip_address>/<prefix_length> dev <interface_name>"
-    * "sudo ifconfig <interface_name> <ip_address> netmask <subnetmask> up
+    * "sudo ifconfig <interface_name> <ip_address> netmask <subnetmask> up"
 
 
