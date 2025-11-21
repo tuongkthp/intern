@@ -34,4 +34,22 @@
     * "sudo ip addr add <ip_address>/<prefix_length> dev <interface_name>"
     * "sudo ifconfig <interface_name> <ip_address> netmask <subnetmask> up"
 
+# Thêm card mạng cho máy ảo
+- Chọn máy ảo cần thêm -> VM -> setting -> Add... -> Chọn Network Adapter -> Finish
+
+# Cấu hình cho card mạng mới thêm nhận IP tĩnh và không có gateway
+1. Chuyển đến thư mục /etc/netplan
+2. Tạo thêm 1 tập tin .yaml để cấu hình cho card mạng mới thêm (ens34)
+3. Cấu hình cho tập tin .yaml
+    #### Cấu hình
+        network: 
+            version: 2 
+            ethernets: 
+                ens34: 
+                    addresses: [10.0.0.2/8] 
+                    nameservers: 
+                        addresses: [8.8.8.8] 
+    #### Kiểm tra địa chỉ IP và Gateway
+        Sử dụng câu lệnh "route -n": hiển thị thông tin về địa chỉ IP và Gateway của các card mạng
+
 
