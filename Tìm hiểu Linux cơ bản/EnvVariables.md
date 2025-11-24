@@ -15,3 +15,11 @@
 
 # Cách sử dụng
 - "$VARIABLE_NAME": để dùng biến môi trường có tên "VARIABLE_NAME"
+
+# Một số biến môi trường có sẵn
+- PATH: Chỉ định các thư mục nơi hệ thống tìm kiếm các file thực thi
+- PWD: Thư mục làm việc hiện tại
+- HOME: Vị trí thư mục chính của người dùng
+- SHELL: Shell mặc định cho người dùng
+- USER: 
+- UID: Giá trị nhận dạng duy nhất của người dùng

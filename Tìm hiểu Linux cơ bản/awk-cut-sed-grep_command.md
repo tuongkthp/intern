@@ -34,3 +34,11 @@
         [option]: Những cờ dòng lệnh sửa đổi hành vi của tệp
         [pattern]: Những mẫu cần tìm kiếm
         [files]: Tên các tệp muốn tìm kiếm trong đó
+    ### [Option]:
+        -i: Tìm kiếm mẫu không phân biệt chữ hoa hay chữ thường
+        -w: Tìm kiếm toàn bộ từ chính xác
+        -c: Tìm số dòng phù hợp với chuỗi/mẫu đã đưa ra
+
+
+
+
