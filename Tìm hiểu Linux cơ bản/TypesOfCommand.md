@@ -1,3 +1,23 @@
+# Câu lệnh được xây dựng sẵn bên trong linux (built-in command)
+- Là câu lệnh được tích hợp trực tiếp bên trong Shell, cho phép thực hiện mà không cần tạo tiến trình mới
+- Một số câu lệnh:
+    * cd
+    * pwd
+    * exit
+    * alias
+    * export
+
+# Câu lệnh chạy bằng các file thực thi
+- Khi chạy một câu lệnh hệ thống sẽ tìm các file thực thi tương ứng trong các thư mục được liệt kê trong biến môi trường PATH
+- Một số câu lệnh:
+    * ls
+    * touch
+    * cp
+
+# Câu lệnh để xác định loại câu lệnh (built-in hoặc executable file)
+- Câu lệnh "which [command]": Hiển thị đường dẫn thư mục đến file thực thi của [command]
+- Nếu câu lệnh không hiển thị đường dẫn thì [command] đó là một [command] built-in, ngược lại thì [command] đó được chạy bằng các file thực thi
+
 # Câu lệnh quản lý tập tin
 - Chức năng: Tạo, chỉnh sửa và xóa tập tin
 - Một số câu lệnh:
@@ -33,3 +53,4 @@
     * df: Báo cáo bộ nhớ còn khả dụng
     * dpkg: Quản lý phần mềm, đảm bảo hệ thông cập nhật và chạy các ứng dụng được yêu cầu
     
+

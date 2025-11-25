@@ -9,6 +9,10 @@
 - Trường "1": Có 1 liên kết cứng với tập tin
 - Trường "root" đầu tiên: Chủ sở hữu là người dùng "root"
 - Trường "root" thứ 2: Nhóm người dùng là "root"
-- Trường "16 Jan 10 11:56": Ngày và giờ của lần chỉnh sửa cuối cùng
+- Trường "16": Kích thước của file
+- Trường "Jan 10 11:56": Ngày và giờ của lần chỉnh sửa cuối cùng
 - Trường "99-environment.conf": Tên tập tin
 - Trường "-> /etc/environment`: Thư mục liên kết của tập tin
+
+
+* NOTE: Với thư mục thì trường thứ 5 là đơn vị phân bổ tối thiếu phổ biến trên các hệ thống tập tin (4096)
