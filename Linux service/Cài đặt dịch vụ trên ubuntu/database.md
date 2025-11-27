@@ -22,13 +22,42 @@
 
     * Phù hợp cho dữ liệu có cấu trúc
 
-    * Một số cơ sở dữ liệu quan hệ:
-        + MySQL
-
-        + PostgreSQL
-
-        + Microsoft SQL Server
-
 - Cơ sở dữ liệu phi quan hệ:
-    * Được thiết kế đê xử lý dữ liệu phi cấu trúc và bán cấu trúc
+    * Được thiết kế đê xử lý dữ liệu phi cấu trúc và bán cấu trúc, như là văn bản, ảnh, video hoặc dữ liệu cảm biến
+    
+    * Mô hình dữ liệu linh hoạt
+
+    * Chia tỉ lệ theo chiều ngang cho dữ liệu khối lượng lớn
+
+    * Được tối ưu hóa cho các trường hợp sự dụng cụ thể như đồ thị hoặc dữ liệu chuỗi thời gian
+
+    * Các tập con chính của cơ sở dữ liệu phi quan hệ:
+        * CSDL tài liệu
+        
+        * Lưu trữ key-value
+
+        * CSDL cột
+
+        * CSDL đồ thị
+
+# Hệ quản trị CSDL (DBMS)
+- Là phần mềm dùng để quản lý dữ liệu từ cơ sở dữ liệu
+
+- Cho phép tạo, cập nhật và truy xuất dữ liệu một cách có tổ chức. Cung cấp bảo mật cho CSDL
+
+- SQL (Structured Query Language) là một ngôn ngữ tiêu chuẩn cho truy cập và thao tác trong một cơ sở dữ liệu quan hệ
+
+- Một số hệ quản trị CSDL quan hệ:
+    * MySQL
+
+    * Microsoft SQL Server
+
+    * Postgre SQL
+
+- Một số hệ quản trị CSDL phi quan hệ:
+    * MongoDB
+
+    * DynamoDB 
+    
+    * Redis
 
