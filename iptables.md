@@ -153,7 +153,7 @@ Cấu hình iptables sao cho client1 có thể truy cập ra ngoài mạng
 1. Cần cấu hình default gateway cho client1 đến ip của server:
 
         ip route del default
-        ip route add default 192.168.33.129
+        ip route add default via 192.168.33.129 dev ens33
 
 2. Cấu hình cho phép router chuyển tiếp gói tin từ interface này sang interface khác
 
@@ -170,11 +170,3 @@ Cấu hình iptables sao cho client1 có thể truy cập ra ngoài mạng
         "sudo iptables -t NAT -A POSTROUTING -o ens32 -j MASQUERADE"
 
 4. Kiểm tra kết qua sẽ thấy client1 sẽ truy cập được ra ngoài mạng
-
-
-Cấu hình iptables sao cho client1 không thể ssh đến server
-1. Cấu hình iptables
-        
-        sudo iptables -t filter -A INPUT -i ens34 -p tcp --dport 22 -j REJECT -s 192.168.33.128
-
-2. Kiểm tra thấy client1 không thể ssh tới server, còn các máy khác thì được
