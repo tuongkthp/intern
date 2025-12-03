@@ -99,7 +99,7 @@
 
 ### Quy trình xử lý gói tin
 
-![alt text](iptables-flow.png)
+![alt text](image/iptables-flow.png)
 
 <a name="command"></a>
 # Cách sử dụng iptables

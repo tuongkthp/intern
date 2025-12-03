@@ -13,7 +13,7 @@
 - Logical Volumes (LVs): Phân vùng từ các hệ thống truyền thống, chứa các filesystems và có thể mở rộng nhiều đĩa
 
 # Kiến trúc LVM
-![alt text](basic-lvm-volume-components.png)
+![alt text](image/basic-lvm-volume-components.png)
 
 # Cơ chế hoạt động của LVM
 
