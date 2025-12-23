@@ -110,3 +110,13 @@ Tạo một bản ghi giống hệt của logical volume để đảm bảo dữ
 Tạo mirror
 
     lvcreate -L [capacity] -m1 -n lv_name vg_name
+
+
+
+
+
+
+
+
+
+
